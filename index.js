@@ -3,32 +3,38 @@ const fs = require('fs')
 let generateReadMe =({projectTitle, description,installation, usage, contributors, tests, license,questions, username, email})=>
 `# PROJECT TITLE
 ${projectTitle}
-# Description
+## Description
 ${description}
-# TABLE OF CONTENTS
-<a href="#Description"></a>
-<a href="#Table of Contents"></a>
-<a href="#Installation"></a>
-<a href="#Usage"></a>
-<a href="#Contributing"></a>
-<a href="#Questions"></a>
+# Table of contents
+* <a href="#Description"></a>
+* <a href="#Table of Contents"></a>
+* <a href="#Installation"></a>
+* <a href="#Usage"></a>
+* <a href="#Contributing"></a>
+* <a href="#Questions"></a>
 
-# Installation
+## Installation
 ${installation}
+* [npm-init](https://docs.npmjs.com/cli/v6/commands/npm-init)
 
-# Usage
+## Usage
 ${usage}
-# Tests
+
+## Tests
 ${tests}
-# Contributors
+
+## Contributors
 ${contributors}
-# License
+
+## License
 ${license}
-# Questions
+
+## Questions
 ${questions}
-##Github
+
+* [Github](https://github.com/davelarde)
 ${username}
-##Email me!
+## Email me!
 ${email}`;
 inquirer.prompt([
     {
