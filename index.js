@@ -1,10 +1,10 @@
-const inquirer = require('inquirer')
+const inquirer = require('inquirer') 
 const fs = require('fs') 
 let generateReadMe =({projectTitle, description,installation, usage, contributors, tests, license,questions, username, email})=>
-`# ${projectTitle}
-## Description 
+`# ${projectTitle} ☄ 
+## Description 📖 
 ${description}
-# Table of contents
+# Table of contents 📓 
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,28 +13,30 @@ ${description}
 * [License](#license)
 * [Questions](#questions)
 
-## Installation
+## Installation 💡 
 ${installation}
 * [npm-init](https://docs.npmjs.com/cli/v6/commands/npm-init)
 
-## Usage
+## Usage 🔑 
 ${usage}
 
-## Tests 
+## Tests 🧪 
 ${tests}
 
-## Contributors
+## Contributors 👩‍🦱 
 ${contributors}
 
-## License
+## License 🔍 
 ${license}
 
-## Questions
+## Questions ❓ 
+Got a question?
 ${questions}
 
 * [Github](https://github.com/davelarde)
 ${username}
-## Email me!
+## Email me! 📧 
+Feel free to email me anytime for any questions to:
 ${email}`;
 inquirer.prompt([
     {
