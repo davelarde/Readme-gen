@@ -12,12 +12,22 @@ Readme Generator will generate any user a readme file, by just answering the que
 * To see it, right click in the markdown file and click on preview.
 * Enjoy!
 ## Demo
-Please find below a quick video on how this app works. After this video, I suggest you to try it! 
-["Dani's Readme generator"](./Demo/readme%20generator%20video%20demo.webm)
+Please find below a quick video on how this app works. After this video, I suggest you to get .mp4 extension to watch it.
+
+
+["Dani's Readme generator"](./Demo/readme%20generator%20video%20demo.mp4)
 
 ## Gif Demo
 In case Video is not working for you,find below a gif to my homework!
-["Dani's Readme generator GIF"](./Demo/gif%20readme.gif)
+["Dani's Readme generator GIF"](./Demo/readme-generator-video-demo.gif)
+
+
+
+
+
+
+
+!["Dani's Readme generator GIF"](./Demo/readme-generator-video-demo.gif)
 
 ## Github Repo
 Click on the link below to find the link to my repo!
@@ -26,6 +36,6 @@ Click on the link below to find the link to my repo!
 
 
 ## Contributors 
-["Daniela Velarde"](https://www.linkedin.com/in/daniela-velarde-8baa13141/)
+[Daniela Velarde](https://www.linkedin.com/in/daniela-velarde-8baa13141/)
 
 
