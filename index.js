@@ -6,12 +6,12 @@ ${projectTitle}
 # Description
 ${description}
 # TABLE OF CONTENTS
-<a href="#Description">
-<a href="#Table of Contents">
-<a href="#Installation">
-<a href="#Usage">
-<a href="#Contributing">
-<a href="#Questions">
+<a href="#Description"></a>
+<a href="#Table of Contents"></a>
+<a href="#Installation"></a>
+<a href="#Usage"></a>
+<a href="#Contributing"></a>
+<a href="#Questions"></a>
 
 # Installation
 ${installation}
@@ -26,7 +26,9 @@ ${contributors}
 ${license}
 # Questions
 ${questions}
+##Github
 ${username}
+##Email me!
 ${email}`;
 inquirer.prompt([
     {
