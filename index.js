@@ -18,39 +18,46 @@ inquirer.prompt([
         message:'Describe the process installation',
     },
     {
-        type:
-        name:
-        message:
+        type: 'input',
+        name:'usage',
+        message:'What is the usage of this project for?',
     },
     {
-        type:
-        name:
-        message:
+        type:'list',
+        name:'License',
+        message:'Choose the adecuate license for this project',
+        choices:[
+            'Apache',
+            'GNU',
+            'ISC',
+            'Mozilla',
+            'Open'
+        ]
     },
     {
-        type:
-        name:
-        message:
+        type:'input',
+        name:'Contributors',
+        message:'Who are the contributors for this project?',
     },
     {
-        type:
-        name:
-        message:
+        type:'input',
+        name:'tests',
+        message:'Isthere a test included?',
     },
     {
-        type:
-        name:
-        message:
-    },
-    v{
-        type:
-        name:
-        message:
+        type: 'input',
+        name:'questions',
+        message:'What do I do if I have a question?',
     },
     {
-        type:
-        name:
-        message:
+        type:'input',
+        name:'username',
+        message:'Please enter your Github Username',
+    },
+    {
+        type:'input'
+        name:'email'
+        message:'Please enter your email:'
     },
     
 
