@@ -1,7 +1,7 @@
-# Read me Generator
-## Description 
-Create your own Readme Generator
-# Table of contents
+# READ ME GENERATOR ☄ 
+## Description 📖 
+This app wil generate readme files for the user, after answering all questions given.
+# Table of contents 📓 
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -10,26 +10,28 @@ Create your own Readme Generator
 * [License](#license)
 * [Questions](#questions)
 
-## Installation
-npm
+## Installation 💡 
+You will need to install NPM package
 * [npm-init](https://docs.npmjs.com/cli/v6/commands/npm-init)
 
-## Usage
-generate
+## Usage 🔑 
+To generate readme files
 
-## Tests 
-no
+## Tests 🧪 
+No , no test included.
 
-## Contributors
-dani
+## Contributors 👩‍🦱 
+Daniela Velarde
 
-## License
-Mozilla
+## License 🔍 
+Open
 
-## Questions
-contact me
+## Questions ❓ 
+Got a question?
+Contact me!
 
 * [Github](https://github.com/davelarde)
 davelarde
-## Email me!
+## Email me! 📧 
+Feel free to email me anytime for any questions to:
 dani@dani
