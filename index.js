@@ -1,6 +1,25 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
+let generateReadMe =({projectTitle, description,installation, usage, contributors, tests, questions, username, email})=>
+`# PROJECT TITLE
 
+# Description
+
+# TABLE OF CONTENTS
+<a href="#Description">
+<a href="#Table of Contents">
+<a href="#Installation">
+<a href="#Usage">
+<a href="#Contributing">
+<a href="#Questions">
+
+# Installation
+
+# Usage
+
+# Contributors
+
+# Questions`;
 inquirer.prompt([
     {
         type:'input',
@@ -14,7 +33,7 @@ inquirer.prompt([
     },
     {
         type:'input',
-        name:'Installation',
+        name:'installation',
         message:'Describe the process installation',
     },
     {
@@ -24,7 +43,7 @@ inquirer.prompt([
     },
     {
         type:'list',
-        name:'License',
+        name:'license',
         message:'Choose the adecuate license for this project',
         choices:[
             'Apache',
@@ -36,7 +55,7 @@ inquirer.prompt([
     },
     {
         type:'input',
-        name:'Contributors',
+        name:'contributors',
         message:'Who are the contributors for this project?',
     },
     {
@@ -55,10 +74,18 @@ inquirer.prompt([
         message:'Please enter your Github Username',
     },
     {
-        type:'input'
-        name:'email'
-        message:'Please enter your email:'
+        type:'input',
+        name:'email',
+        message:'Please enter your email:',
     },
     
 
 ])
+.then ((answers) =>{
+    const readMeContent= generateReadMe(answers);
+    console.log(answers)
+    fs.writeFile('genreadme.md',readMeContent,(err)=>
+    err? console.log(err) : console.log('You made it, readme created!')
+    
+    );
+});
