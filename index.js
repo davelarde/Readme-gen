@@ -5,13 +5,13 @@ let generateReadMe =({projectTitle, description,installation, usage, contributor
 ## Description 📖 
 ${description}
 # Table of contents 📓 
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Tests](#tests)
-* [Contributors](#contributors)
-* [License](#license)
-* [Questions](#questions)
+* [Description](##description)
+* [Installation](##installation)
+* [Usage](##usage)
+* [Tests](##tests)
+* [Contributors](##contributors)
+* [License](##license)
+* [Questions](##questions)
 
 ## Installation 💡 
 ${installation}
@@ -36,7 +36,7 @@ ${questions}
 * [Github](https://github.com/davelarde)
 ${username}
 ## Email me! 📧 
-Feel free to email me anytime for any questions to:
+Feel free to email me anytime for any questions or encountered issues to:
 ${email}`;
 inquirer.prompt([
     {
