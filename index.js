@@ -1,17 +1,17 @@
 const inquirer = require('inquirer')
-const fs = require('fs')
+const fs = require('fs') 
 let generateReadMe =({projectTitle, description,installation, usage, contributors, tests, license,questions, username, email})=>
-`# PROJECT TITLE
-${projectTitle}
-## Description
+`# ${projectTitle}
+## Description 
 ${description}
 # Table of contents
-* <a href="#Description"></a>
-* <a href="#Table of Contents"></a>
-* <a href="#Installation"></a>
-* <a href="#Usage"></a>
-* <a href="#Contributing"></a>
-* <a href="#Questions"></a>
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Contributors](#contributors)
+* [License](#license)
+* [Questions](#questions)
 
 ## Installation
 ${installation}
@@ -20,7 +20,7 @@ ${installation}
 ## Usage
 ${usage}
 
-## Tests
+## Tests 
 ${tests}
 
 ## Contributors
