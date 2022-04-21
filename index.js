@@ -1,10 +1,10 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-let generateReadMe =({projectTitle, description,installation, usage, contributors, tests, questions, username, email})=>
+let generateReadMe =({projectTitle, description,installation, usage, contributors, tests, license,questions, username, email})=>
 `# PROJECT TITLE
-
+${projectTitle}
 # Description
-
+${description}
 # TABLE OF CONTENTS
 <a href="#Description">
 <a href="#Table of Contents">
@@ -14,12 +14,20 @@ let generateReadMe =({projectTitle, description,installation, usage, contributor
 <a href="#Questions">
 
 # Installation
+${installation}
 
 # Usage
-
+${usage}
+# Tests
+${tests}
 # Contributors
-
-# Questions`;
+${contributors}
+# License
+${license}
+# Questions
+${questions}
+${username}
+${email}`;
 inquirer.prompt([
     {
         type:'input',
